@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" contenstyle.csst="width=, initial-scale=1.0">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>splash</title>
+</head>
+<body>
+    <!-- parent -->
+    <div class="parent">
+        <div class="background-img">
+            <!-- background image -->
+            <div class="nav-bar">
+                <!-- nav bar --> 
+                <div class="nav-logo">
+                    <h3>SPLASH</h3>
+
+                </div>
+                <div class="main-bar">
+                    <a href="" style="border-bottom: 2px solid white;">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="about.html">About</a>
+                    <a href="contactus.html">Contact Us</a>
+                </div>
+                <div class="nav-right">
+                    <span onclick="show()" id="searchIcon"><i class='bx bx-search' ></i></span>
+                    <span class="search-button">
+                    <input onkeyup="search()" class="don" id="searchInput" type="text" placeholder="Search">
+                    <ol>
+                        <li class="items">clothes</li>
+                        <li class="items">facbook</li>
+                        <li class="items">twitter</li>
+                        <li class="items">tags</li>
+                    </ol>
+                    </span>
+                    <i class='bx bx-cart'></i>
+                </div>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div class="menu" onclick="toggleMenu()">
+                        <div class="menu-items">
+                    <a href="">Home</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="about.html">About</a>
+                    <a href="contactus.html">Contact Us</a>
+                        </div>
+                </div>
+
+                </div>
+            </div>
+            <!-- headline -->
+            <div class="headline">
+                <h1>Make a statement with every outfit</h1>
+                <a href="shop.html"><button>Start Shopping</button></a>
+            </div>
+
+        </div>
+        <!--out fits  -->
+        <section class="oufit-info">
+            <div class="outfits">
+                <div class="oufits-img">
+                    <img  src="home/Rectangle 26 (1).png" alt="">
+                    <div class="pricing">
+                        <span class="buy-to-cart">
+                           
+                            <p>$50,000</p>
+                        </span>
+                        <span>
+                            <button class="buy-button">Buy Now</button>
+                            <button class="add-button">Add to Cart</button>
+                        </span>
+
+                    </div>
+                </div>
+
+                    <div class="oufits-img">
+                        <img src="home/Rectangle 37.png" alt="">
+
+                        <div class="pricing">
+                            <span class="buy-to-cart">
+                                
+                                <p>$50,000</p>
+                            </span>
+                            <span>
+                                <button class="buy-button">Buy Now</button>
+                                <button class="add-button">Add to Cart</button>
+                            </span>
+    
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        <!-- oufits 2 -->
+        <div class="outfits2">
+            <div class="oufits-img">
+                <img class="igms" src="home/Rectangle 38.png" alt="">
+                <div class="pricing">
+                    <span class="buy-to-cart">
+                        
+                        <p>$50,000</p>
+                    </span>
+                    <span>
+                        <button class="buy-button">Buy Now</button>
+                        <button class="add-button">Add to Cart</button>
+                    </span>
+
+                </div>
+            </div>
+
+                <div class="oufits-imgs">
+                    <span class="buy-to-cart">
+                        <img class="igms"  src="home/Rectangle 39.png" alt="">
+
+                    <div class="pricing">
+                        <span class="buy-to-cart">
+                            
+                            <p>$50,000</p>
+                        </span>
+                        <span>
+                            <button class="buy-button">Buy Now</button>
+                            <button class="add-button">Add to Cart</button>
+                        </span>
+
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- style section:section 2 -->
+    <section class="style-section">
+        <div class="styles">
+            <span>
+            <h2>Style that speaks volumes</h2>
+            <p>Explore our 2023 summer collection</p>
+            <button>Explore now</button>
+        </span>
+
+        </div>
+
+
+
+        <div class="designs-info">
+            <span>
+            <h2>Designs that speaks luxury</h2>
+            <p>Explore our 2023 spring collection</p>
+            <button>Explore now</button>
+        </span>
+
+        </div>
+
+
+        
+        <div class="glamed-info">
+            <span>
+            <h2>Get glamed up</h2>
+            <p>Explore our 2023 spring collection</p>
+            <button>Explore now</button>
+        </span>
+
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer-info">
+        <div class="foot">
+            <h3>About</h3>
+            <span>
+                <a href="">About Us</a>
+                <a href="">Career</a>
+                <a href="">Contact Us</a>
+                <a href="">Track your orders</a>
+                <a href="">Customer services</a>
+                <a href="">Returns & Exchange</a>
+            
+            </span>
+        </div>
+
+        <div class="foot">
+            <h3>Privacy</h3>
+            <span>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & Condition</a>
+                <a href="">Delivery information</a>
+                <a href="">FQA</a>
+                
+            
+            </span>
+        </div>
+
+        <div class="foot">
+            <h3>Shop</h3>
+            <span>
+                <a href="">Dressmeoutlet.com Nigeria</a>
+                <a href="">Lauras Elegance, Dubai</a>
+                <a href="">Contact Us</a>
+                <a href="">The Brand, UK</a>
+                
+            
+            </span>
+        </div>
+        </div>
+        <div class="foot2">
+            <div class="Copyright">
+            <h4>Splash</h4>
+            <p> © Splashthebrand.com</p>
+           </div>
+
+           <div class="social">
+            <i class='bx bxl-pinterest'></i>
+            <i class='bx bxl-instagram-alt'></i>
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+           </div>
+
+        </div>
+
+    </footer>
+       
+
+    </div>
+    <script> function search() {
+        let input = document.querySelector('.don').value.toUpperCase()
+        let list = document.getElementsByClassName('items')
+            for (let i = 0; i < list.length; i++) {
+                if (!list[i].textContent.toUpperCase().includes(input)) {
+                list[i].style.display='none'
+                } else {
+                    list[i].style.display='flex'
+                    
+                }
+            }
+  
+        }
+
+
+       
+    // let searchIcon = document.querySelector(".search-icon");
+    // let searchInput = document.getElementById("searchInput");
+
+    // searchIcon.addEventListener("click", function() {
+    //   if (searchInput.style.display === "block") {
+    //     searchInput.style.display = "block";
+    //   } else {
+    //     searchInput.style.display = "block";
+    //   }
+    // });
+
+        function show() {
+            let input = document.querySelector("searchIcon")
+            if (input.style.display === "none") {
+                input.style.display = 'flex';
+                
+            }
+            else {
+                input.style.display = "none";
+            }
+            }
+            
+
+
+    let hamburger = document.querySelector('.hamburger');
+    let menu = document.querySelector('.menu');
+    let isActive = false;
+
+    function toggleMenu() {
+      isActive = !isActive; // Toggle the active state
+
+      hamburger.classList.toggle('active');
+      menu.classList.toggle('active');
+
+      if (isActive) {
+        document.addEventListener('click', closeMenu);
+      } else {
+        document.removeEventListener('click', closeMenu);
+      }
+    }
+
+    function closeMenu(event) {
+      if (!menu.contains(event.target) && !hamburger.contains(event.target)) {
+        isActive = false;
+        hamburger.classList.remove('active');
+        menu.classList.remove('active');
+        document.removeEventListener('click', closeMenu);
+      }
+    }
+        
+        </script>
+    
+</body>
+</html>
