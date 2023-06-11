@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-top: 20px; */
     padding-left: 120px;
     padding-right: 120px;
 }
@@ -102,7 +101,7 @@ nav a:hover {
     width: 797px;
 }
 .article-section {
-    margin-top: 160px;
+    margin-top: 260px;
 }
 .article-section h2 {
     font-size: 40px;
@@ -111,6 +110,7 @@ nav a:hover {
     padding-left: 90px;
     padding-bottom: 50px;
     letter-spacing: 3px;
+    
 }
 .article {
     display: flex;
