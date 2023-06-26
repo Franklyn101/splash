@@ -94,15 +94,16 @@ header p {
     font-size: 15px;
     padding-top: 20px;
 }
-.star {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.star img {
+    margin-right: 2px;
+   
+
 }
 .star P {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 300;
+    margin-top: -2px;
 }
 
 .pricing {
@@ -120,9 +121,18 @@ header p {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    gap: 340px;
+    gap: 395px;
+}
+.pricing span {
+    display: flex;
+    align-items: start;
+    /* gap: 10px; */
 }
 
+.bttn {
+    display: flex;
+    gap: 20px;
+}
 .buy-button {
     width: 150px;
     height: 45px;
@@ -165,12 +175,7 @@ header p {
     width: 26px;
     height: 30px;
 }
-.pricing span{
-    display: flex ;
-    align-items: center;
-    gap: 10px;
 
-}
 
 .quantity button {
     border: none;
