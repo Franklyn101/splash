@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    scroll-behavior: smooth;
    
 }
 
@@ -50,7 +51,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
 }
 input {
     width: 200px;
@@ -138,7 +139,11 @@ li {
     height: 633px;
 
 }
+.imgs {
+    width: 570px;
+    height: 633px;
 
+}
 .outfits2 {
     display: flex;
     gap: 35px;
@@ -164,15 +169,16 @@ li {
 
 }
 .ratings h4 {
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
 }
 .buy-to-cart p {
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
+    font-family: 'Poppins', sans-serif;
 }
 .star {
     display: flex;
@@ -246,7 +252,7 @@ li {
     background-image: url(home/designimg.png);
     height: 100vh;
     background-repeat: repeat-x;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .designs-info span {
     display: flex;
@@ -288,7 +294,7 @@ li {
     background-image: url(home/glamedimg.png);
     height: 100vh;
     background-repeat: repeat-x;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .glamed-info span {
     display: flex;

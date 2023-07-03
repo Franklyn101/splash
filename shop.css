@@ -83,6 +83,12 @@ header p {
     /* align-items: center; */
       
 }
+.img1 {
+    width: 570px;
+    height: 633px;
+
+}
+
 .ratings {
     display: flex;
     flex-direction: column;
